@@ -17,7 +17,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: iliusa77/flask-docker-swarm:latest
+        tags: ziolechka/flask-docker-swarm:latest
     - name: Setup SSH
       uses: webfactory/ssh-agent@v0.7.0
       with:
