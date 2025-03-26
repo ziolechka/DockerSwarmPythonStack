@@ -1,0 +1,7 @@
+services:
+  web:
+    image: iliusa77/flask-docker-swarm:latest
+    ports:
+      - "8000:8000"
+  redis:
+    image: redis:alpine
